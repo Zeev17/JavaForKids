@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Cercle 
 {
 	public int x, y ;
