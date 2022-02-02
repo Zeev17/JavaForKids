@@ -1,4 +1,5 @@
 // mon commentaire
+// et un second commentaire
 import java.util.* ;
 public class Rechercher 
 {
