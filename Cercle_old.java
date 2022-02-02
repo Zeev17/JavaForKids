@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Cercle
+public class Cercle_old
 {
 	public static void main(String [] arg)
 	{
