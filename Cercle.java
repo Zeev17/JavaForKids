@@ -1,7 +1,22 @@
+import java.util.Scanner;
+
 public class Cercle 
 {
 	public int x, y ;
 	public int r ;
+	public static int nombre;
+
+	public void créer()
+	{
+		Scanner lectureClavier = new Scanner(System.in);
+		System.out.println(" Position en x : ");
+		x = lectureClavier.nextInt();
+		System.out.println(" Position en y : ");
+		y =lectureClavier.nextInt();
+		System.out.println(" Rayon 	: ");
+		r = lectureClavier.nextInt();
+		nombre ++;
+	}
 	
 	public void afficher()
 	{
