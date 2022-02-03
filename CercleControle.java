@@ -1,3 +1,4 @@
+import java.util.*;
 public class CercleControle {
 	private int x, y, r;
 	public void créer()	{
@@ -10,7 +11,7 @@ public class CercleControle {
 		do {
 			System.out.println(" Rayon	: ");
 			r = lectureClavier.nextInt();	} while ( r < 0 || r > 600);
-		}	
+			
 	}
 
 	public void afficher() {
