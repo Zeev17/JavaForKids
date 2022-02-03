@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Cercle 
+public class CerclePrive 
 {
 	private int x, y, r ;
 

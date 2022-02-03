@@ -1,12 +1,12 @@
 import java.util.*;
 
-public class FaireDesCercles 
+public class FaireDesCerclesPrives
 {
 	public static void main(String [] arg)
 	{
 		
 		Scanner lectureClavier  = new Scanner(System.in);
-		Cercle A = new Cercle();
+		CerclePrive A = new CerclePrive();
 		A.afficher();
 		System.out.println(" Entrez le rayon : ");
 		A.r = lectureClavier.nextInt();
