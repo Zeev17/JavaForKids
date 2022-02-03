@@ -6,6 +6,17 @@ public class Cercle
 	public int r ;
 	public static int nombre;
 
+	public void échanger(Cercle autre)
+	{
+		int tmp;
+		tmp = x;
+		x = autre.x;
+		autre.x = tmp;
+		tmp = y;
+		y = autre.y;
+		autre.y = tmp;
+	}
+	
 	public void créer()
 	{
 		Scanner lectureClavier = new Scanner(System.in);
