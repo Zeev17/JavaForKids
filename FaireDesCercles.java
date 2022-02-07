@@ -4,7 +4,7 @@ public class FaireDesCercles
 {
 	public static void main(String [] arg)
 	{
-		Cercle A = new Cercle();
+		Cercle_old_2 A = new Cercle_old_2();
 		Scanner lectureClavier  = new Scanner(System.in);
 		A.afficher();
 		System.out.println(" Entrez la position de x : ");

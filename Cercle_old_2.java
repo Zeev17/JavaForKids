@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Cercle 
+public class Cercle_old_2 
 {
 	public int x, y ;
 	public int r ;
 	public static int nombre;
 
-	public void échanger(Cercle autre)
+	public void échanger(Cercle_old_2 autre)
 	{
 		int tmp;
 		tmp = x;
